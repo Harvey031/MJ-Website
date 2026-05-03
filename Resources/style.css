@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -14,6 +18,9 @@
     align-items: center;
     padding: 1.5rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 }
 
 .logo {
