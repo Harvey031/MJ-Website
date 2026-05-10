@@ -317,9 +317,9 @@ html {
 .box-flex {
     display: flex;
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+   margin: 2rem auto;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box-flex div {
@@ -355,7 +355,8 @@ li::marker {
 
 .right-content-fourth {
    
-   margin: 0 auto;
+   margin-left: 5rem;
+   margin-right: 2rem;
     background-color: #2a2a2a;
     width: 100%;
     max-width: 28rem;
@@ -427,7 +428,7 @@ li::marker {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .first-section {
         flex-direction: column;
         justify-content: center;
@@ -455,7 +456,7 @@ li::marker {
     }
 
     .right-content-fourth {
-        margin-bottom: 2rem;
+        margin: 2rem auto;
       
     }
 
